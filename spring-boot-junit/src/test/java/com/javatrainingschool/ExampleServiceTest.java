@@ -14,6 +14,7 @@ public class ExampleServiceTest {
     @Autowired
     ExampleServiceImpl exampleService;
 
+    //This change is by another developer
     @DisplayName("Test Spring @Autowired Integration")
     @Test
     void testGet() {
